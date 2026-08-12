@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Comfort Paws | Custom Pet Stairs, Ramps & Beds</title>
+
+  <meta name="description"
+        content="Comfort Paws creates custom pet stairs, ramps, beds and mobility solutions for dogs, cats and other pets.">
+
+  <style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fffaf5;
+    color: #3d3028;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+header {
+    background: #ffffff;
+    padding: 18px 0;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #765548;
+}
+
+.logo span {
+    color: #c98d62;
+}
+section {
+    padding: 50px 0;
+}
+
+.hero {
+    text-align: center;
+    padding: 70px 20px;
+    background: #fff3e8;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    color: #765548;
+    margin-bottom: 20px;
+}
+
+.hero h1 span {
+    color: #c98d62;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #66564d;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 28px;
+    background: #c47748;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.button:hover {
+    background: #a85f38;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    text-decoration: none;
+    color: #3d3028;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card .emoji {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    color: #765548;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #66564d;
+}
+
+.cta {
+    text-align: center;
+    background: #f7e5d5;
+    padding: 50px 25px;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+
+.cta h2 {
+    color: #765548;
+    font-size: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #66564d;
+}
+      </style>
+      </head>
+      <body>
+      <header>
+    <div class="container">
+        <h1 class="logo">Comfort Paws 🐾</h1>
+        <p>Custom comfort for all our fluffy friends</p>
+    </div>
+</header>
+
+<main class="container">
+
+    <section class="hero">
+        <h1>Made for them.<br><span>Loved by you.</span></h1>
+        <p>
+            Custom-built pet stairs, ramps, beds and more —
+            designed around your pet's needs.
+        </p>
+
+        <a href="#pets" class="button">Find the perfect solution 🐾</a>
+    </section>
+
+    <section id="pets">
+        <h2>Who are we building for?</h2>
+        <p>Choose your fluffy friend to get started.</p>
+
+        <div class="cards">
+
+            <a href="#products" class="card">
+                <div class="emoji">🐶</div>
+                <h3>Dogs</h3>
+                <p>Stairs, ramps, beds & custom creations.</p>
+            </a>
+
+            <a href="#products" class="card">
+                <div class="emoji">🐱</div>
+                <h3>Cats</h3>
+                <p>Comfortable and practical solutions for cats.</p>
+            </a>
+
+            <a href="#products" class="card">
+                <div class="emoji">🐾</div>
+                <h3>Other Pets</h3>
+                <p>Have another kind of pet? Let's build for them too.</p>
+            </a>
+
+        </div>
+    </section>
+
+    <section id="products">
+        <h2>What would you like us to make?</h2>
+        <p>Choose one of our options or ask us about a custom idea.</p>
+
+        <div class="cards">
+
+            <div class="card">
+                <div class="emoji">🪜</div>
+                <h3>Pet Stairs</h3>
+                <p>Custom stairs made to suit your pet and your home.</p>
+            </div>
+
+            <div class="card">
+                <div class="emoji">↗️</div>
+                <h3>Pet Ramps</h3>
+                <p>Gentle access for pets who need a little extra help.</p>
+            </div>
+
+            <div class="card">
+                <div class="emoji">🛏️</div>
+                <h3>Pet Beds</h3>
+                <p>Comfortable custom beds made with your pet in mind.</p>
+            </div>
+
+            <div class="card">
+                <div class="emoji">💡</div>
+                <h3>Custom Ideas</h3>
+                <p>Have an idea? Tell us what you need and we'll try to build it.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>Have something different in mind?</h2>
+        <p>
+            If you can't find exactly what you're looking for,
+            send us your idea. At Comfort Paws, we'll do our best
+            to turn it into something your pet will love.
+        </p>
+
+        <a href="mailto:Cloetekyle14@gmail.com" class="button">
+            Contact Comfort Paws
+        </a>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Comfort Paws 🐾</p>
+    <p>Custom Pet Stairs • Ramps • Beds • More</p>
+</footer>
+
+</body>
+</html>
